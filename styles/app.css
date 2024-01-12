@@ -214,11 +214,8 @@ html {
 }
 
 body {
-    /* background-color: #ccc; */
     font-family: 'TTNorms-Regular';
-    /* font-family: 'TTNorms-Medium'; */
 }
-
 
 /* ----------------Header top------------------ */
 .container {
@@ -246,10 +243,6 @@ body {
     gap: 45px;
 }
 
-/* .nav-logo {} */
-
-/* .nav-logo__img {} */
-
 .menu {
     list-style: none;
     padding-left: 0;
@@ -257,14 +250,10 @@ body {
     gap: 25px;
 }
 
-/* .menu__items {} */
-
 .menu__link {
     text-decoration: none;
     color: #081d43;
 }
-
-/* .btn-contact {} */
 
 .btn-contact_link {
     background-color: #0050c8;
@@ -342,8 +331,6 @@ body {
 }
 
 /* -------------Work Section----------------- */
-
-/* .main {} */
 
 .works {
     padding: 5rem 0;
@@ -477,11 +464,9 @@ body {
     padding: 5rem 0;
 }
 
-.portfolio__text{
+.portfolio__text {
     text-transform: uppercase;
 }
-
-.portfolio__title {}
 
 .portfolio-items {
     display: flex;
@@ -507,6 +492,73 @@ body {
     -o-border-radius: .3rem;
     width: 100%;
     margin-bottom: 2rem;
+}
+
+/* ----------------footer-------------------- */
+
+.newsletter {
+    background-color: #2C57E4;
+}
+
+.newsletter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 0;
+}
+
+.newsletter__text {
+    color: #fff;
+    font-weight: normal;
+    margin: 0;
+}
+
+.newsletter-email {
+    padding: 0.3rem 0.3rem 0.3rem 1.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+    flex-basis: 22rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+
+.newsletter-email__textbox {
+    border: 0;
+    outline: 0;
+    width: 15rem;
+}
+
+.newsletter-email__btn {
+    background: #2F5BEA;
+    padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ----------------Copy right---------------- */
+
+.copyright {
+    padding: 1rem 0;
+}
+
+.copyright-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright__text {
+    color: #6C7890;
 }
 
 /* ----------------Responsive---------------- */
