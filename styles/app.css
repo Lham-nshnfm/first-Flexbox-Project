@@ -534,7 +534,11 @@ body {
 }
 
 .portfolio-items__img figcaption:hover {
-    background-color: rgba(58, 95, 187, 0.4);
+    /* background-color: rgba(58, 95, 187, 0.4); */
+    filter: blur(.2rem);
+    -webkit-filter: blur(.2rem);
+    filter: blur(.2rem);
+    -webkit-filter: blur(.2rem);
 }
 
 .portfolio-items__img figcaption a {
